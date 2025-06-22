@@ -6,7 +6,7 @@ use std::process;
 use anyhow::Result;
 use miette::Report;
 
-// This function should not expanded. Please add any logic to
+// This functioAn should not expanded. Please add any logic to
 // `turborepo_lib::main` instead
 fn main() -> Result<()> {
     std::panic::set_hook(Box::new(turborepo_lib::panic_handler));
